@@ -518,6 +518,10 @@ footer .container{
         margin: 30px;
         border-radius: 15px;
     }
+
+    #evento .even p{
+        font-size: 16px 0px;
+    }
     
     .even:first-child{
         background-image: linear-gradient(
