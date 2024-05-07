@@ -7,6 +7,8 @@
     <title>BATIN24</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="galeria/galeria-encabezado.css">
+    <link rel="stylesheet" href="testimonios.css">
+    <link rel="stylesheet" href="coordinadora.css">
 </head>
 
 <body>
@@ -23,10 +25,10 @@
         <ul class="menu">
             <li><a href="#somos-proya" class="item">Historia</a></li>
             <li><a href="#nuestros-programas" class="item">Objetivos</a></li>
-            <li><a href="#info" class="item">Evento</a></li>
-            <li><a href="#" class="item">Testimonios</a></li>
+            <li><a href="#evento" class="item">Evento</a></li>
+            <li><a href="#testimonios" class="item">Testimonios</a></li>
             <li><a href="galeria.html" class="item">Galeria</a></li>
-            <li><a href="#" class="item">Contactos</a>
+            <li><a class="item">Contactos</a>
                 <ul>
                     <li><a href="https://www.facebook.com/share/T5goaqLSgL1wjLTD/?mibextid=qi2Omg"><img
                                 src="imagenes/logo-facebook.png"></a></li>
@@ -45,7 +47,7 @@
 
     <section id="inicio">
         <div id="titulo-principal">
-            <h1>vení aprendé a Programar <br>con los Mejores</h1>
+            <h1>Vení y aprende a Programar <br>con los Mejores!</h1>
         </div>
         <div class="que-es">
             <p id="que-es">¿Qué es el Bachillerato Técnico en Informática?<br>
@@ -85,6 +87,20 @@
         </div>
     </section>
 
+    <section id="coordinadora">
+        <div class="container">
+            <div class="texto">
+                <h2><span class="color-acento">Coordinadora de BATIN</span>
+                    <br>Ana Patricia Chávez Ozorio
+                </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum corporis est cupiditate laboriosam, praesentium repellendus id dignissimos optio ipsum odio, blanditiis, voluptates magni facilis inventore sit sint perspiciatis. Magni, quasi.
+                Officiis laboriosam ducimus excepturi vero illum dolorem, iure officia blanditiis veritatis culpa assumenda mollitia perspiciatis, error eligendi voluptatibus laborum consectetur ratione aperiam, repellat molestias nam. Adipisci laborum sapiente dolore debitis!
+                Autem dicta omnis temporibus aspernatur fugit adipisci cum voluptates neque soluta recusandae, ratione veritatis odit blanditiis optio enim corporis. Perferendis quos nihil odio, quibusdam unde vel minus nemo provident. Officia!</p>
+            </div>
+            <div class="img-container"><img src="imagenes/coordinadora.jfif"></div>
+        </div>
+    </section>
+
     <section id="nuestros-programas">
         <div class="mas-informacion">
             <h2>Más Información...</h2>
@@ -117,38 +133,80 @@
         <script id="info" src="informacion.js"></script>
     </section>
     </section>
+
     <section id="testimonios">
-        <div class="mas-informacion">
-            <h2>Testimonios</h2>
-            <p></p>
-            <div class="programas">
-                <div class="testi" id="div-1ra">
-                    <h3>Monserrat <br> Sanabria</h3>
-                    <p id="i-1ra"><br><br>El bachillerato técnico en informática, es una hermosa comunidad que apesar de
-                        las dificultades que se pueden lograr tener, busca la manera de poder sobrellevar los problemas,
-                        además en ella encontras excelentes profesionales, y excelentes personas que te apoyan.</p>
-                    <!-- <button onclick="primero()" id="btn-1ra">+ Info</button> -->
-                </div>
-                <div class="testi" id="div-2do">
-                    <h3>Carolina<br> Alegre&nbsp;</h3>
-                    <p id="i-2do"><br><br>Mi experiencia como ex alumna del Bachillerato Técnico en Informática fue muy
-                        buena porque tiene un buen ambiente, los docentes son muy profesionales en su área laboral, los
-                        alumnos son grandes personas y BATIN en sí es una gran familia, aprendí mucho de los docentes y
-                        dejaron una gran huella en mi vida.</p>
-                    <!-- <button  onclick="segundo()" id="btn-2do">+ Info</button> -->
-                </div>
-                <div class="testi" id="div-3ra">
-                    <h3>Fernanda<br> Torres&nbsp;</h3>
-                    <p id="i-3ra"><br><br>Muy buena experiencia realmente, los profesores de materias específicas son
+        <div class="wrapper">
+            <h2 class="titulo-testomonios">Testimonios</h2>
+            <p class="titulo-testomonios">Profes y Exas del Bachiller dieron sus respectivos testimonios</p>
+
+            <ul class="carousel">
+                <li class="card">
+                    <div class="img"><img src="imagenes/fernanda.jfif" alt="img" draggable="false"></div>
+                    <h2>Fernanda Torres</h2>
+                    <h4>Exa Promo022</h4>
+                    <span>Muy buena experiencia realmente, los profesores de materias específicas son
                         buenos profesionales, las clases de programación y similares, son una base que te ayudan
                         muchísimo si vas a seguir estudiando informática, así se llega a la universidad sabiendo ya
-                        bastantes cosas.</p>
-                    <!-- <button  onclick="tercera()" id="btn-3ra">+ Info</button> -->
-                </div>
-            </div>
-        </div>
-        <script id="info" src="informacion.js"></script>
+                        bastantes cosas.</span>
+                </li>
 
+                <li class="card">
+                    <div class="img"><img src="imagenes/carolina.jfif" alt="img" draggable="false"></div>
+                    <h2>Carolina Alegre</h2>
+                    <h4>Exa Promo023</h4>
+                    <span>"Mi experiencia como ex alumna del Bachillerato Técnico en Informática fue muy buena porque
+                        tiene un buen ambiente, los docentes son muy profesionales en su área laboral, los alumnos son
+                        grandes personas y BATIN en sí es una gran familia, aprendí mucho de los docentes y dejaron una
+                        gran huella en mi vida"</span>
+                </li>
+
+                <li class="card">
+                    <div class="img"><img src="imagenes/monse.jfif" alt="img" draggable="false"></div>
+                    <h2>Monserrat Sanabria</h2>
+                    <h4>Exa Promo023</h4>
+                    <span>"El bachillerato técnico en informática, es una hermosa comunidad que apesar de las dificultades que se pueden lograr tener, busca la manera de poder sobrellevar los problemas, además en ella encontras excelentes profesionales, y excelentes personas que te apoyan"</span>
+                </li>
+
+                <li class="card">
+                    <div class="img"><img src="imagenes/enzo.jfif" alt="img" draggable="false"></div>
+                    <h2>Enzo Giménez</h2>
+                    <h4>Docente de "Lengua y Literatura Castellana"</h4>
+                    <span>"Es un verdadero honor ser profesor del Técnico en Informática. Trabajar con cada curso es una gran satisfacción por el respeto, la disciplina y la dedicación de los alumnos. ¡Es un privilegio formar parte de la formación de cada uno de ellos!"</span>
+                </li>
+
+                <li class="card">
+                    <div class="img"><img src="imagenes/thiago.jfif" alt="img" draggable="false"></div>
+                    <h2>Thiago Cárdenas</h2>
+                    <h4>Exa Promo023</h4>
+                    <span>"Mi experiencia en el bachillerato fue bastante buena, esos 3 años aprendí bastante cosas nuevas que me ayudaron para continuar con la carrera universitaria de ingeniería en informática, se nota bastante el buen trabajo y sobre todo el buen trato con el que te reciben los profes"</span>
+                </li>
+
+                <li class="card">
+                    <div class="img"><img src="imagenes/fabriciano.jfif" alt="img" draggable="false"></div>
+                    <h2>Fabriciano Ortega</h2>
+                    <h4>Docente de "Sociología y Antropología Cultural"</h4>
+                    <span>"Tecnico en informatica es una de las especialidades de grandes proyecciones que cada dia va ganando espacio en todas las ciencias, pretende  una formacion solida e integral de los estudiantes, que realmente pueda proyectar las competencias para desarrollar e incorporar programas informaticos, y que esos conocimiento le pueda servir en su vida cotidiana y a la sociedad"</span>
+                </li>
+
+                <li class="card">
+                    <div class="img"><img src="imagenes/nestor2.jfif" alt="img" draggable="false"></div>
+                    <h2>Néstor Ramírez</h2>
+                    <h4>Docente de "Historia y Geografía" y "Orientación"</h4>
+                    <span>"Informática es una carrera estudiantil que tiene muchísimo campo hoy en día los jóvenes y las empresas también están buscando realzar el área de informática considerando que vivimos en un mundo de la tecnología y la digitalización por lo tanto yo desde mi área de Historia y Geografía y Desarrollo Personal considero que mi trabajo en el área va más bien dedicado a crear conciencia y complementar un poquito la parte tecnológica que ustedes están haciendo dentro de su bachillerato"</span>
+                </li>
+
+                <li class="card">
+                    <div class="img"><img src="imagenes/graciela.jfif" alt="img" draggable="false"></div>
+                    <h2>Graciela Portillo</h2>
+                    <h4>Docente de "Ciencias"</h4>
+                    <span>"Me inicié en el año 2011 en Batin, hace 13 años aproximadamente, desde que estoy ahí trabajé super bien en el bloque, tuve la suerte de que siempre me haya tocado alumnos brillantes e inteligentes, chicos que realmente demuestran responsabilidad en lo que hacen en todas las actividades.
+                        Tambien diferentes coordinadores/as con diversas actitudes de profesionalismo y gestión."</span>
+                </li>
+
+                </li>
+            </ul>
+        </div>
+        <script src="testimonios.js"></script>
     </section>
     <section id="evento">
         <div class="mas-informacion">
@@ -158,19 +216,20 @@
                 <div class="even">
                     <h3>Aniversario <br> BATIN</h3>
                     <p><br><br>El bachillerato técnico en informática celebra sus 26 años de vida en el Colegio EMD Dr
-                        Rúl Peña. <br>Fecha: 29/04/24 <br>Lugar: Bloque de BATIN <br>Hora: 9:00 a 11:30 y 15:00 a 17:30
+                        Rúl Peña. <br><br>Fecha: 29/04/24 <br><br>Lugar: Bloque de BATIN <br><br>Hora: 9:00 a 11:30 y 15:00 a 17:30
                     </p>
                 </div>
                 <div class="even">
                     <h3>Expo<br> BATIN&nbsp;</h3>
                     <p><br><br>La expo BATIN es un evento en donde los alumnos muestran el progreso obtenido hasta la
-                        fecha. <br>fecha: 29/05/24 <br>Lugar:Colegio Multi, bloque de BATIN <br>Hora: 9:00 a 11:30 y
+                        fecha. <br><br>Fecha: 29/05/24 <br><br>Lugar: Colegio Multi, bloque de BATIN <br><br>Hora: 9:00 a 11:30 y
                         15:00 a 17:30</p>
                 </div>
                 <div class="even">
                     <h3>Campamento de<br>recreación&nbsp;</h3>
-                    <p><br><br>Un momento en que los alumnos se toman un respiro y cambian su rutina. <br>Fecha;17/09/24
-                        <br>Lugar: Campamento Jack Normen <br>Hora: 7:30 a 17:30</p>
+                    <p><br><br>Un momento en que los alumnos se toman un respiro y cambian su rutina. <br><br>Fecha:17/09/24
+                        <br><br>Lugar: Campamento Jack Normen <br><br>Hora: 7:30 a 17:30
+                    </p>
                 </div>
             </div>
         </div>
