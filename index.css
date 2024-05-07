@@ -501,13 +501,14 @@ footer .container{
 
     #evento h2{
         font-size: 3em;
+        padding: 0px;
     }
 
     #evento h3{
         margin-top: 0;
     } 
-    #evento .even{
-        width: 350px;
+    #evento .programas .even{
+        width: 280px;
         height: 400px;
     }
     
@@ -520,7 +521,7 @@ footer .container{
     }
 
     #evento .even p{
-        font-size: 16px 0px;
+        margin: 16px 0px;
     }
     
     .even:first-child{
